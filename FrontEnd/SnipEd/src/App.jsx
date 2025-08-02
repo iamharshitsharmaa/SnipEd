@@ -1,8 +1,13 @@
 import React from 'react'
+import HomePage from './components/Home/HomePage'
+import { Navbar } from './components/Navbar/Navbar'
 
 const App = () => {
   return (
-    <div className='text-4xl text-black'>App</div>
+    <div>
+      {/* <Navbar/> */}
+      <HomePage/>
+    </div>
   )
 }
 
